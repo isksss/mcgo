@@ -1,0 +1,13 @@
+[server]
+  project = "paper"
+  version = "1.20.2"
+  memory = "4G"
+
+[[plugins]]
+  name = "DeadChest.jar"
+  url = "https://dev.bukkit.org/projects/dead-chest/files/latest"
+
+[[plugins]]
+name = "LWC-2.3.2-dev.jar"
+url = "https://ci.codemc.io/view/Author/job/pop4959/job/LWC/lastBuild/artifact/build/libs/LWC-2.3.2-dev.jar"
+

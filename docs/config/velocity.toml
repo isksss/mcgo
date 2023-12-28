@@ -1,0 +1,13 @@
+[server]
+  project = "velocity"
+  version = "3.3.0-SNAPSHOT"
+  memory = "1G"
+
+[[plugins]]
+  name = "ViaVersion.jar"
+  url = "https://cdn.modrinth.com/data/P1OZGk5p/versions/7KKV3qUh/ViaVersion-4.10.0-23w51b-SNAPSHOT.jar"
+
+[[plugins]]
+  name = "ViaBackwards.jar"
+  url = "https://cdn.modrinth.com/data/NpvuJQoq/versions/xT0BWkeL/ViaBackwards-4.10.0-23w51b-SNAPSHOT.jar"
+
