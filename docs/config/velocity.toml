@@ -2,6 +2,8 @@
   project = "velocity"
   version = "3.3.0-SNAPSHOT"
   memory = "1G"
+  restart = true
+  restart_time = ["5", "15"]
 
 [[plugins]]
   name = "ViaVersion.jar"

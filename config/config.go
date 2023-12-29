@@ -20,9 +20,11 @@ type Config struct {
 }
 
 type Server struct {
-	Project string `toml:"project"`
-	Version string `toml:"version"`
-	Memory  string `toml:"memory"`
+	Project     string   `toml:"project"`
+	Version     string   `toml:"version"`
+	Memory      string   `toml:"memory"`
+	Restert     bool     `toml:"restart"`
+	RestertTime []string `toml:"restart_time"`
 }
 
 type Plugin struct {
