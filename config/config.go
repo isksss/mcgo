@@ -23,8 +23,8 @@ type Server struct {
 	Project     string   `toml:"project"`
 	Version     string   `toml:"version"`
 	Memory      string   `toml:"memory"`
-	Restert     bool     `toml:"restart"`
-	RestertTime []string `toml:"restart_time"`
+	Restart     bool     `toml:"restart"`
+	RestartTime []string `toml:"restart_time"`
 }
 
 type Plugin struct {

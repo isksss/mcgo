@@ -2,8 +2,8 @@
   project = "paper"
   version = "1.20.2"
   memory = "4G"
-  restart = true
-  restart_time = ["5", "15"]
+  restart = false
+  restart_time = ["5:00"]
 
 [[plugins]]
   name = "DeadChest.jar"
@@ -13,3 +13,30 @@
 name = "LWC-2.3.2-dev.jar"
 url = "https://ci.codemc.io/view/Author/job/pop4959/job/LWC/lastBuild/artifact/build/libs/LWC-2.3.2-dev.jar"
 
+[[plugins]]
+  name = "Gsit.jar"
+  url = "https://github.com/Gecolay/GSit/releases/download/1.7.0/GSit-1.7.0.jar"
+
+[[plugins]]
+  name = "Luckperms.jar"
+  url = "https://download.luckperms.net/1526/bukkit/loader/LuckPerms-Bukkit-5.4.113.jar"
+
+[[plugins]]
+  name = "PlaceholderAPI.jar"
+  url = "https://github.com/PlaceholderAPI/PlaceholderAPI/releases/download/2.11.4/PlaceholderAPI-2.11.4.jar"
+
+[[plugins]]
+  name = "fawe.jar"
+  url = "https://dev.bukkit.org/projects/fawe/files/latest"
+
+[[plugins]]
+  name = "worldguard.jar"
+  url = "https://dev.bukkit.org/projects/worldguard/files/latest"
+
+[[plugins]]
+  name = "coreprotect.jar"
+  url = "https://www.patreon.com/file?h=89830486&i=15920178"
+
+[[plugins]]
+  name = "Advanced-Portals.jar"
+  url = "https://github.com/sekwah41/Advanced-Portals/releases/download/v0.9.3/Advanced-Portals-0.9.3.jar"

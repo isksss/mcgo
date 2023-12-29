@@ -2,8 +2,8 @@
   project = "velocity"
   version = "3.3.0-SNAPSHOT"
   memory = "1G"
-  restart = true
-  restart_time = ["5", "15"]
+  restart = false
+  restart_time = ["5:00", "15:00"]
 
 [[plugins]]
   name = "ViaVersion.jar"
@@ -13,3 +13,14 @@
   name = "ViaBackwards.jar"
   url = "https://cdn.modrinth.com/data/NpvuJQoq/versions/xT0BWkeL/ViaBackwards-4.10.0-23w51b-SNAPSHOT.jar"
 
+[[plugins]]
+  name = "Geyser.jar"
+  url = "https://download.geysermc.org/v2/projects/geyser/versions/latest/builds/latest/downloads/velocity"
+
+[[plugins]]
+  name = "Floodgate.jar"
+  url = "https://download.geysermc.org/v2/projects/floodgate/versions/latest/builds/latest/downloads/velocity"
+
+[[plugins]]
+  name = "Minimotd.jar"
+  url = "https://github.com/jpenilla/MiniMOTD/releases/download/v2.0.14/minimotd-velocity-2.0.14.jar"
